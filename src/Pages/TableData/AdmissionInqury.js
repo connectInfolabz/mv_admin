@@ -13,7 +13,7 @@ function AdmissionInqury() {
         const fetchData = async () => {
             try {
                 const response = await axios.post(`${process.env.REACT_APP_MONGO_BASE_URL}/getAdmissioninquiry`);
-                const addmissionInquiry = response.data.addmissionInquiry;
+                const addmissionInquiry = response.data.addmissionInquiry.reverse();
                 setData(addmissionInquiry);
                 setLoading(false);
             } catch (error) {
