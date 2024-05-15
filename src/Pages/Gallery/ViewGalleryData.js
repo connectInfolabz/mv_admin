@@ -31,7 +31,7 @@ function ViewGalleryData() {
 
     const handleDelete = async (imgId) => {
         try {
-            await axios.post(`${ process.env.REACT_APP_MONGO_BASE_URL }/deleteGallery`, {
+            await axios.post(`${process.env.REACT_APP_MONGO_BASE_URL}/deleteGallery`, {
                 imgId,
             });
             toast.success("Image Deleted Successfully!!", {
