@@ -95,7 +95,7 @@ function ViewGalleryData() {
                                         <div className="card-body">
                                             <div className="chart-widget mb-4">
                                                 <img
-                                                    src={`${ process.env.REACT_APP_MONGO_BASE_URL } / images / galleryPics / ${ dataItem.imageName }`}
+                                                    src={`${process.env.REACT_APP_MONGO_BASE_URL}/images/galleryPics/${ dataItem.imageName }`}
                                                     className="img-fluid"
                                                     style={{ height: "200px", width: "100%", objectFit: "cover" }}
                                                     alt="event"
