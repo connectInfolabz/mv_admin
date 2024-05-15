@@ -42,23 +42,7 @@ function Login() {
                     <div
                         className="navbar-brand mx-auto mt-2 flex-fill text-center"
                     >
-                        <svg
-                            version="1.1"
-                            id="logo"
-                            className="navbar-brand-img brand-md"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                            x="0px"
-                            y="0px"
-                            viewBox="0 0 120 120"
-                            xmlSpace="preserve"
-                        >
-                            <g>
-                                <polygon className="st0" points="78,105 15,105 24,87 87,87 	" />
-                                <polygon className="st0" points="96,69 33,69 42,51 105,51 	" />
-                                <polygon className="st0" points="78,33 15,33 24,15 87,15 	" />
-                            </g>
-                        </svg>
+                        <img src="./logos.png" alt="logo" className="w-50"/>
                     </div>
                     <h1 className="h6 mb-3">Sign in</h1>
                     <div className="form-group">
